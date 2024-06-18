@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: black;
+}
+
+header a img {
+  width: 80px;
+}
+
+header a p {
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main article h1 {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  margin-top: 16px;
+}
+
+section {
+  width: 100%;
+}
+
+.product-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.product-showcase .section-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.section-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-showcase ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #00000010;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 9/16;
+  object-fit: cover;
+}
+
+.card article p {
+  font-size: 14px;
+}
+
+.card article p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
