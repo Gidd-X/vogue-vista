@@ -96,7 +96,8 @@ section {
   color: black;
 }
 
-.product-showcase ul {
+.product-showcase ul,
+.trustees-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 12px;
@@ -140,4 +141,8 @@ footer {
 footer a {
   text-decoration: none;
   color: black;
+}
+
+.trustees-list .card img {
+  aspect-ratio: 1;
 }
