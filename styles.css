@@ -70,6 +70,7 @@ button {
   font-weight: bold;
   border: none;
   margin-top: 16px;
+  cursor: pointer;
 }
 
 section {
@@ -145,4 +146,37 @@ footer a {
 
 .trustees-list .card img {
   aspect-ratio: 1;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 40px 0;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px 12px;
+  font-family: inherit;
+  border: none;
+  border: 1px solid #00000010;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: 1px solid #00000080;
+  outline-offset: 1px;
+}
+
+form button {
+  width: 100%;
+  max-width: 500px;
 }
